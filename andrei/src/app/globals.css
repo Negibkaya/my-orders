@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-custom-gradient {
+  background: rgb(173, 166, 166);
+  background: radial-gradient(
+    circle,
+    rgba(173, 166, 166, 1) 0%,
+    rgba(214, 171, 215, 1) 35%,
+    rgba(173, 166, 166, 1) 100%
+  );
+}
+
+.image-rounded {
+  border-top-left-radius: 5.75rem;
+  border-bottom-right-radius: 5.75rem;
+}
+
+.text-container {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.square-rounded {
+  width: 480px;
+  height: 480px;
+  border-radius: 1rem;
+  margin-bottom: 16px;
+}
+
+.button-custom {
+  /* width: 280px;
+  height: 100px; */
+  padding: 0.5rem 1rem;
+  margin-top: 40px;
+  background-color: #d993db;
+  font-size: 50px;
+  border-radius: 30px;
+  font-family: "JejuMyengjo", sans-serif;
+}
+
+.bg-custom-image {
+  background-image: url(/bg1.jpg);
+  background-size: cover;
+  border-top-right-radius: 5.75rem;
+  border-bottom-left-radius: 5.75rem;
+}
+
+.bg-custom-image2 {
+  background-image: url(/bg2.jpg);
+  background-size: cover;
+  border-top-right-radius: 5.75rem;
+  border-bottom-left-radius: 5.75rem;
+}
+
+.bg-custom-image3 {
+  background-image: url(/bg3.jpg);
+  background-size: cover;
+  border-top-right-radius: 5.75rem;
+  border-bottom-left-radius: 5.75rem;
+}

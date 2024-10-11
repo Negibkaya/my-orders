@@ -1,0 +1,101 @@
+/* CatalogPage.css */
+
+.food-catalog-page {
+  height: 120vh;
+}
+
+.catalog-page {
+  margin: 20px;
+}
+
+.filter-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.price-filter {
+  margin-top: 10px;
+}
+
+.recommendations {
+  margin-bottom: 20px;
+}
+
+.dishes-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dish-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 15px;
+  width: 200px;
+  height: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.link img {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.food-catalog-page {
+  display: flex;
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 20%;
+  padding: 10px;
+  margin: 0 30px;
+}
+
+.filters h1 {
+  text-align: center;
+  font-size: 56px;
+}
+
+.filters a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.dishes {
+  width: 80%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.func {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-to-cart,
+.go-to-cart {
+  background-color: #ff5722;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: #e64a19;
+}
+
+.catalog-img {
+  width: 200px;
+  height: 200px;
+}

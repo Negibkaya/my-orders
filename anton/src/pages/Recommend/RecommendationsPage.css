@@ -1,0 +1,72 @@
+/* RecommendationsPage.css */
+
+.recommendations-page {
+  margin: 20px;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  font-size: 24px;
+}
+
+.header p {
+  font-size: 16px;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 500px;
+  margin-bottom: 20px;
+}
+
+.recommended-dishes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.dish-card {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.best-dishes {
+  margin: 2rem 0;
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.type-selector {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.type-selector button {
+  background: none;
+  border: none;
+  padding: 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #555;
+}
+
+.type-selector button.active {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.rec-img {
+  width: 200px;
+}

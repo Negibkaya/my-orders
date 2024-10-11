@@ -1,0 +1,82 @@
+.shopping-cart {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between;
+  align-items: center; */
+  height: 100vh;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 4rem 0;
+  font-size: 40px;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.quantity {
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.total {
+  margin: 60px 0;
+  text-align: right;
+  font-weight: bold;
+  font-size: 2.2em;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.pay-btn {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 20px auto 0;
+  padding: 10px;
+  border: none;
+  background: darkblue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.cart {
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.cart-select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-right: 41px;
+  background-color: #fff8e9; /* Set the background color of the navbar */
+  color: #ad4156; /* Set the text color to white */
+}
+
+.cart-select:focus {
+  outline: none;
+}

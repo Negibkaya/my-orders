@@ -1,0 +1,11 @@
+.mainApp {
+  background-color: #fff8e9; /* Set the background color of the navbar */
+  color: #ad4156; /* Set the text color to white */
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
